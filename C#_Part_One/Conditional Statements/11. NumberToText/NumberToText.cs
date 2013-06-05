@@ -14,59 +14,66 @@ class NumberToText
     static void Main()
     {
         Console.Write("Enter integer number: ");
-        uint userInput;
+        uint userInput = 0;
         bool isParsed = uint.TryParse(Console.ReadLine(), out userInput);
 
-        string[] exceptions = { "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen" };
+        string[] ones = { "Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" };
 
-        string[] tens = { "Ten", "Twenty", "Thirty", "Fourty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety" };
+        string[] exceptions = { "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen" };
+
+        string[] tens = { "", "", "Twenty ", "Thirty ", "Fourty ", "Fifty ", "Sixty ", "Seventy ", "Eighty ", "Ninety " };
 
         string text = "";
 
-        if (isParsed)
+        if (isParsed && userInput>= 0 && userInput < 1000)
         {
-            if (userInput == 0)
+
+            uint modulo = userInput % 10;
+            uint divisibleByTen = (userInput / 10) % 10;
+            uint divisibleByHundred = (userInput / 100) % 10;
+
+            if (divisibleByHundred != 0)
             {
-                Console.WriteLine("Zero");
-            }
-            else if (userInput > 999)
-            {
-                Console.WriteLine("You are trying to convert a value which exceeds 999. Please try a different number. ");
+              text = text + ones[divisibleByHundred] + " hundred ";
+
+                if (divisibleByTen != 0 && divisibleByTen!= 1 && userInput>= 20)
+                {
+                    text = text + "and " + tens[divisibleByTen];
+
+                    if (modulo != 0)
+                    {
+                        text = text + ones[modulo];
+                    }
+                }
+                else if (divisibleByTen == 1)
+                {
+                    text = text + "and " + exceptions[modulo];
+                }
+                else
+                {
+                    if (modulo != 0)
+                    {
+                       text = text + "and " + ones[modulo];
+                    }
+                }
             }
             else
             {
-                if (userInput > 99 && userInput < 1000)
+                if (divisibleByTen != 0 && divisibleByTen != 1 && userInput >= 20)
                 {
-                    if (userInput % 100 == 0)
-                    {
-                        uint result = userInput / 100;
-                        text = text + exceptions[result - 1] + " hundred ";
-                    }
-                    else if (userInput % 100 == 0 && userInput % 10 == 0)
-                    {
-                        uint result = userInput / 100;
-                        uint resultOne = userInput / 10;
-                        text = text + exceptions[result - 1] + " hundred " + tens[resultOne - 1];
-                    }
-                    else
-                    {
-                        Console.WriteLine("blank");
-                    }
+                    text = text + tens[divisibleByTen] + ones[modulo];
+                }
+                else if (divisibleByTen == 1)
+                {
+                    text = text + exceptions[modulo];
+                }
+                else
+                {
+                    text = text + ones[modulo];
                 }
 
-                else if (userInput > 19 && userInput < 100)
-                {
-                    uint result = userInput / 10;
-                    text = text + tens[result - 1] + " ";
-                    userInput = userInput % 10;
-                }
-
-                if (userInput > 0 && userInput< 20)
-                {
-                    text = text + exceptions[userInput - 1];
-                }
-                Console.WriteLine(text);
             }
+            Console.WriteLine(text);
         }
         else
         {
