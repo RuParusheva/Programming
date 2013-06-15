@@ -12,11 +12,11 @@ class PrintCirclePerimeterAndArea
 
         decimal piNumber = 3.14m;
 
-        decimal cDiameter = cRadius * 2;
+        decimal cPerimeter = (piNumber * 2) * cRadius;
 
         decimal cArea = piNumber * (cRadius * cRadius);
 
-        Console.WriteLine("Circle with radius of {0} has diameter of {1} and area, which equals {2}.", cRadius, cDiameter, cArea);
+        Console.WriteLine("Circle with radius of {0} has diameter of {1} and area, which equals {2}.", cRadius, cPerimeter, cArea);
     }
 }
 
