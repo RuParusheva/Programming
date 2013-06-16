@@ -24,12 +24,21 @@ class CompanyInformation
         Console.Write("The internet address is: ");
         object web = Console.ReadLine();
 
-        Console.Write("What is the company manager's name? ");
-        string orgManager = Console.ReadLine();
+        Console.Write("What is the company manager's first name? ");
+        string firstName = Console.ReadLine();
+
+        Console.Write("What is the company manager's last name? ");
+        string lastName = Console.ReadLine();
+
+        Console.Write("What is the company manager's age? ");
+        string age = Console.ReadLine();
+
+        Console.Write("What is the company manager's phone? ");
+        string managerPhone = Console.ReadLine();
 
         Console.WriteLine("--COMPANY INFORMATION-- \nCompany name: {0} \nCompany Address: {1}", orgName, orgAddress);
         Console.WriteLine("--CONTACT INFORMATION-- \nPhone number: {0} \nFax number: {1} \nInternet address: {2}", orgPhone, faxNumber, web);
-        Console.WriteLine("--CONTACT PERSON-- \nCompany Manager: {0}", orgManager);
+        Console.WriteLine("--CONTACT PERSON-- \nCompany Manager name: {0} {1} \nAage: {2}\nManager's phone: {3}", firstName, lastName, age, managerPhone);
     }
 }
 
