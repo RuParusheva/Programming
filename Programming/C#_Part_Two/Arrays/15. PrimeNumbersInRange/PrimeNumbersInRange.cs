@@ -11,6 +11,8 @@ class PrimeNumbersInRange
 
         var primeNumbers = new List<int>();
 
+        //This has been set to 10000 instead of 10000000, because implementation is slow 
+        //and will take a while before printing anything. This aims to illustrate the functionality.
         for (int index = 2; index < 10000; index++)
         {
             primeNumbers.Add(index);
