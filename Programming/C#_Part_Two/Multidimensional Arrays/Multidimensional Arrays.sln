@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. LongestStringSequence",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. ClassMatrix", "06. ClassMatrix\06. ClassMatrix.csproj", "{224CD6CE-5627-422E-8B60-B60C80303F4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. DepthFirstSearch", "07. DepthFirstSearch\07. DepthFirstSearch.csproj", "{692C8D32-55A4-42B6-96F3-E667BDBBC8BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{224CD6CE-5627-422E-8B60-B60C80303F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{224CD6CE-5627-422E-8B60-B60C80303F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{224CD6CE-5627-422E-8B60-B60C80303F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692C8D32-55A4-42B6-96F3-E667BDBBC8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692C8D32-55A4-42B6-96F3-E667BDBBC8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692C8D32-55A4-42B6-96F3-E667BDBBC8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692C8D32-55A4-42B6-96F3-E667BDBBC8BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
