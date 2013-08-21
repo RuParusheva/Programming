@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-class Program
+class SubtractMultiplyPolynomials
 {
     static void Main()
     {

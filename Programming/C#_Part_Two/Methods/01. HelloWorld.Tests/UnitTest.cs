@@ -9,7 +9,7 @@ namespace _01.HelloWorld.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            var actual = Program.GetGreeting("Gosho");
+            var actual = HelloWorld.GetGreeting("Gosho");
             var expected = "Hello, Gosho!";
 
             Assert.AreEqual(expected, actual, "GetGreeting failed!");

@@ -4,7 +4,7 @@ not just integer (e.g. decimal, float, byte, etc.). Use generic method (read in 
 using System;
 using System.Collections.Generic;
 
-class Program
+class GenericMinMaxAverageSumProduct
 {
     public static double Average<T>(params T[] array)
     {

@@ -3,7 +3,7 @@
 
 using System;
 
-public class Program
+public class HelloWorld
 {
     public static string GetGreeting(string name)
     {

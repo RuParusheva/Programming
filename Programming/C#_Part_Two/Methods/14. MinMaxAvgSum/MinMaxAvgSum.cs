@@ -4,7 +4,7 @@ Use variable number of arguments.*/
 using System;
 using System.Collections.Generic;
 
-class Program
+class MinMaxAvgSum
 {
     public static double Average<T>(params T[] array)
     {

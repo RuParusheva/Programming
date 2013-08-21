@@ -13,7 +13,7 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
-class Program
+class Tasks
 {
     public static string Reverse(string source)
     {
