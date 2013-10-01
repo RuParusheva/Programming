@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9GagNumbers", "9GagNumbers\9GagNumbers.csproj", "{46793631-C840-4ED0-B9FD-A914D792A7DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialValue", "SpecialValue\SpecialValue.csproj", "{6CCFF1F5-D33D-41D7-8537-CDD76DDB2812}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46793631-C840-4ED0-B9FD-A914D792A7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46793631-C840-4ED0-B9FD-A914D792A7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46793631-C840-4ED0-B9FD-A914D792A7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46793631-C840-4ED0-B9FD-A914D792A7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCFF1F5-D33D-41D7-8537-CDD76DDB2812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCFF1F5-D33D-41D7-8537-CDD76DDB2812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCFF1F5-D33D-41D7-8537-CDD76DDB2812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCFF1F5-D33D-41D7-8537-CDD76DDB2812}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
