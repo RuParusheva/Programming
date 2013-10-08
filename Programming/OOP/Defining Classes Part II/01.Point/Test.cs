@@ -23,8 +23,10 @@ public static class Test
         Path path = new Path(new Point(3, 1, 8), new Point(15, 5.2, 6), new Point(8, 6.3, 4));
         Console.WriteLine(path.ToString());
 
-        path = PathStorage.Load("../../load.txt");
-        PathStorage.Save(path, "../../save.txt");
-      
+        PathStorage.Save(path, "../../save.txt"); 
+        
+        Path path2 = new Path();
+        path2 = PathStorage.Load("../../load.txt");
+        PathStorage.Save(path2, "../../save.txt");      
     }
 }
