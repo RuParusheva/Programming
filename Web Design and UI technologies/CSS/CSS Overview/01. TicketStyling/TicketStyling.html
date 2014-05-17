@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Ticket Styling</title>
+    <style>
+        body {
+            background-color: #585858;
+            font-size: 14px;
+            color: lightgoldenrodyellow;
+            font-family: sans-serif;
+        }
+
+        h1 {
+            color: #A7A7A7;
+            font-size: 24px;
+            font-weight: normal;
+        }
+
+        table {
+            border-spacing: 15px;
+        }
+
+        td p {
+            margin: 0;
+            font-weight: bold;
+        }
+
+        a {
+            color: lightgoldenrodyellow;
+            text-decoration: none;
+        }
+
+        .rowtitle {
+            color: white;
+            font-style: italic;
+            vertical-align: top;
+        }
+
+        .not-active {
+            color: #E81114;
+            font-weight: bold;
+        }
+
+        #email-address {
+            font-weight: bold;
+        }
+
+        #response, #last-action {
+            color: lightgrey;
+        }
+
+        #not-answered {
+            color: #CE6C1E;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ticket ID: 409788</h1>
+    </header>
+    <section>
+        <table>
+            <tr class="rowname">
+                <td class="rowtitle">Name:</td>
+                <td id="name">
+                    <p>
+                        <img src="Green%20dot.JPG" alt="Green Status" />
+                        Parker Seidel
+                    </p>
+                    <p class="not-active">No active support</p>
+                </td>
+            </tr>
+            <tr class="e-mail">
+                <td class="rowtitle">E-mail:</td>
+                <td id="email-address">seidel@aptmail.com</td>
+            </tr>
+            <tr class="response-time">
+                <td class="rowtitle">Response Time:</td>
+                <td id="response">72hours, 60 hours left</td>
+            </tr>
+            <tr class="last-action">
+                <td class="rowtitle" rowspan="2">Last Action:</td>
+                <td id="last-action">Never been locked.</td>
+            </tr>
+            <tr class="empty">
+                <td id="link"><a href="#">Link to public post</a></td>
+            </tr>
+            <tr>
+                <td class="rowtitle">Status:</td>
+                <td id="not-answered">Not answered</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>

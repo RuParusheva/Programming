@@ -1,0 +1,4 @@
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\02. MusicCategories\bin\_02.MusicCategories.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\02. MusicCategories\bin\_02.MusicCategories.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\02. MusicCategories\obj\Debug\_02.MusicCategories.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\02. MusicCategories\obj\Debug\_02.MusicCategories.pdb

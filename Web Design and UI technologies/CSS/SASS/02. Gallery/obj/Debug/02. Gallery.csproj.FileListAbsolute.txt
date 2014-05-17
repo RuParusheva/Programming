@@ -1,0 +1,5 @@
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\SASS\02. Gallery\bin\_02.Gallery.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\SASS\02. Gallery\bin\_02.Gallery.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\SASS\02. Gallery\obj\Debug\02. Gallery.csprojResolveAssemblyReference.cache
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\SASS\02. Gallery\obj\Debug\_02.Gallery.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\SASS\02. Gallery\obj\Debug\_02.Gallery.pdb

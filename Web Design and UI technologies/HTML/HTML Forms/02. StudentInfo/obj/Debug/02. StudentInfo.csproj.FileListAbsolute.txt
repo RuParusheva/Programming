@@ -1,0 +1,5 @@
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Forms\02. StudentInfo\bin\_02.StudentInfo.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Forms\02. StudentInfo\bin\_02.StudentInfo.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Forms\02. StudentInfo\obj\Debug\02. StudentInfo.csprojResolveAssemblyReference.cache
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Forms\02. StudentInfo\obj\Debug\_02.StudentInfo.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Forms\02. StudentInfo\obj\Debug\_02.StudentInfo.pdb

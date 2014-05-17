@@ -1,0 +1,5 @@
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\02. Lists\bin\_02.Lists.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\02. Lists\bin\_02.Lists.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\02. Lists\obj\Debug\02. Lists.csprojResolveAssemblyReference.cache
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\02. Lists\obj\Debug\_02.Lists.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\02. Lists\obj\Debug\_02.Lists.pdb

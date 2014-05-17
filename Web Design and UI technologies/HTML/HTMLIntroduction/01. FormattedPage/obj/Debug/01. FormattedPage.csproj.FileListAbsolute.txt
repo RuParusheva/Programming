@@ -1,0 +1,5 @@
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\01. FormattedPage\bin\_01.FormattedPage.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\01. FormattedPage\bin\_01.FormattedPage.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\01. FormattedPage\obj\Debug\01. FormattedPage.csprojResolveAssemblyReference.cache
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\01. FormattedPage\obj\Debug\_01.FormattedPage.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\01. FormattedPage\obj\Debug\_01.FormattedPage.pdb

@@ -1,0 +1,4 @@
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\03. Calculator\bin\_03.Calculator.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\03. Calculator\bin\_03.Calculator.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\03. Calculator\obj\Debug\_03.Calculator.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\03. Calculator\obj\Debug\_03.Calculator.pdb

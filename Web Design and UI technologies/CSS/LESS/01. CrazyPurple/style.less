@@ -1,0 +1,151 @@
+﻿/* Used Koala for CSS generation from LESS as web essesntials kept giving an error*/
+html {
+}
+
+.clearfix() {
+    zoom: 1;
+
+    &:after {
+        display: block;
+        content: "";
+        height: 0;
+        clear: both;
+    }
+}
+
+@font-color: white;
+@background-color: #9215F2;
+@border: 2px solid black;
+@sub-border: 1px solid black;
+@radius: 15px;
+
+body, div, ul, li, p, h1, h2, h3, a {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: @background-color;
+    color: @font-color;
+    background-image: linear-gradient(#D593FF 40px, #8F1AEF 100px);
+    background-repeat: no-repeat;
+}
+
+nav {
+    padding-left: 15px;
+    margin-left: 25px;
+    border: @border;
+    border-radius: @radius;
+    width: 70%;
+
+    ul {
+        .clearfix();
+
+        li {
+            float: left;
+            padding: 10px 5px;
+
+            .sub-nav-list {
+                display: none;
+                position: absolute;
+                background-color: #9215F2;
+                border: @sub-border;
+
+                li {
+                    float: none;
+                    border: @sub-border;
+                }
+            }
+
+            &:hover .sub-nav-list {
+                display: block;
+            }
+        }
+    }
+
+    a {
+        color: @font-color;
+    }
+}
+
+form {
+    float: right;
+
+    input {
+        background-color: #B35EF3;
+        border: @sub-border;
+        border-radius: @radius;
+        color: @font-color;
+        margin: 5px;
+
+        &[type="submit"] {
+            padding: 5px 15px;
+            font-weight: bold;
+        }
+    }
+}
+
+#wrapper {
+    .clearfix();
+
+    > section {
+        float: left;
+        width: 70%;
+
+        article {
+            border: @border;
+            margin: 15px;
+            padding: 20px;
+            border-radius: @radius - 3;
+
+            header {
+                padding: 5px;
+            }
+
+            a {
+                color: #B655F5;
+            }
+
+            footer {
+                text-align: right;
+            }
+        }
+    }
+
+    > aside {
+        float: right;
+        width: 25%;
+        padding-top: 30px;
+        margin-right: 5%;
+
+        section {
+            border: @border;
+            border-radius: @radius - 10;
+            margin-bottom: 15px;
+            padding: 15px;
+
+            header {
+                padding-bottom: 8px;
+            }
+
+            a {
+                color: #A68AC1;
+            }
+
+            strong, em {
+                color: #C4BBD1;
+            }
+
+            li {
+                background: url(li-dot.png) 0 5px no-repeat;
+                padding-left: 25px;
+            }
+        }
+    }
+}
+
+footer {
+    text-align: center;
+}

@@ -1,0 +1,5 @@
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\05. MacStore\bin\_05.MacStore.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\05. MacStore\bin\_05.MacStore.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\05. MacStore\obj\Debug\05. MacStore.csprojResolveAssemblyReference.cache
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\05. MacStore\obj\Debug\_05.MacStore.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\05. MacStore\obj\Debug\_05.MacStore.pdb

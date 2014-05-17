@@ -1,0 +1,91 @@
+body, div, ul, li, p, h1, h2, h3, a {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none; }
+
+body {
+  background: #9215f2;
+  color: white;
+  background-image: linear-gradient(#d593ff 40px, #8f1aef 100px);
+  background-repeat: no-repeat; }
+  body nav {
+    padding-left: 15px;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 70%; }
+    body nav ul:after {
+      content: "\0020";
+      display: block;
+      height: 0;
+      overflow: hidden;
+      clear: both; }
+    body nav ul li {
+      float: left;
+      padding: 10px 5px; }
+      body nav ul li .sub-nav-list {
+        display: none;
+        position: absolute;
+        background-color: #9215F2;
+        border: 1px solid black; }
+        body nav ul li .sub-nav-list li {
+          float: none;
+          border: 1px solid black; }
+      body nav ul li:hover .sub-nav-list {
+        display: block; }
+    body nav a {
+      color: white; }
+  body form {
+    float: right; }
+    body form input {
+      background-color: #B35EF3;
+      border: 1px solid black;
+      border-radius: 15px;
+      color: white;
+      margin: 5px; }
+      body form input[type="submit"] {
+        padding: 5px 15px;
+        font-weight: bold; }
+  body .wrapper:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both; }
+  body .wrapper > section {
+    float: left;
+    width: 70%; }
+    body .wrapper > section article {
+      border: 2px solid black;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 12px; }
+      body .wrapper > section article header {
+        padding: 5px; }
+      body .wrapper > section article a {
+        color: #B655F5; }
+      body .wrapper > section article footer {
+        text-align: right; }
+  body .wrapper > aside {
+    float: right;
+    width: 25%;
+    padding-top: 30px;
+    margin-right: 5%; }
+    body .wrapper > aside section {
+      border: 2px solid black;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      padding: 15px; }
+      body .wrapper > aside section header {
+        padding-bottom: 8px; }
+      body .wrapper > aside section a {
+        color: #A68AC1; }
+      body .wrapper > aside section strong, body .wrapper > aside section em {
+        color: #C4BBD1; }
+      body .wrapper > aside section li {
+        background: url(li-dot.png) 0 5px no-repeat;
+        padding-left: 25px; }
+  body footer {
+    text-align: center; }
+

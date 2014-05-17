@@ -1,0 +1,5 @@
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\03. TotalManagement\bin\_03.TotalManagement.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\03. TotalManagement\bin\_03.TotalManagement.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\03. TotalManagement\obj\Debug\03. TotalManagement.csprojResolveAssemblyReference.cache
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\03. TotalManagement\obj\Debug\_03.TotalManagement.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Layout\03. TotalManagement\obj\Debug\_03.TotalManagement.pdb

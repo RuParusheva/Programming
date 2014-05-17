@@ -1,0 +1,5 @@
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\03. Profile\bin\_03.Profile.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\03. Profile\bin\_03.Profile.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\03. Profile\obj\Debug\03. Profile.csprojResolveAssemblyReference.cache
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\03. Profile\obj\Debug\_03.Profile.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTMLIntroduction\03. Profile\obj\Debug\_03.Profile.pdb

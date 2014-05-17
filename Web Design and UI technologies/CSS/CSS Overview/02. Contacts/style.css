@@ -1,0 +1,33 @@
+﻿table {
+    background-color: white;
+    border-spacing: 0;
+    font-family: calibri;
+    border: 1px solid gray;
+}
+
+img {
+    vertical-align: text-top;
+}
+
+thead {
+    background-color: #51B406;
+    text-align: left;
+    color: white;
+}
+
+th {
+    font-weight: normal;
+    background: linear-gradient(#61C407, #4EB106);
+}
+
+th, td {
+    padding: 5px;
+}
+
+    th:not(:first-child), td:not(:first-child) {
+        border-left: 1px solid gray;
+    }
+
+tr:nth-child(2n) {
+    background-color: #ECECD8;
+}

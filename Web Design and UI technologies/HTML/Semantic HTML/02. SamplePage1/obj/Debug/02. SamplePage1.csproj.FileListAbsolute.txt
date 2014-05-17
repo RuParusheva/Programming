@@ -1,0 +1,5 @@
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\Semantic HTML\02. SamplePage1\bin\_02.SamplePage1.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\Semantic HTML\02. SamplePage1\bin\_02.SamplePage1.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\Semantic HTML\02. SamplePage1\obj\Debug\02. SamplePage1.csprojResolveAssemblyReference.cache
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\Semantic HTML\02. SamplePage1\obj\Debug\_02.SamplePage1.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\Semantic HTML\02. SamplePage1\obj\Debug\_02.SamplePage1.pdb

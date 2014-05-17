@@ -1,0 +1,5 @@
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\02. Form\bin\_02.Form.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\02. Form\bin\_02.Form.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\02. Form\obj\Debug\_02.Form.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\02. Form\obj\Debug\_02.Form.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\02. Form\obj\Debug\02. Form.csprojResolveAssemblyReference.cache

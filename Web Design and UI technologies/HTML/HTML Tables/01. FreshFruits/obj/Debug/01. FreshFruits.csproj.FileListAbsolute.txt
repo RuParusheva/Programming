@@ -1,0 +1,5 @@
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\01. FreshFruits\bin\_01.FreshFruits.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\01. FreshFruits\bin\_01.FreshFruits.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\01. FreshFruits\obj\Debug\01. FreshFruits.csprojResolveAssemblyReference.cache
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\01. FreshFruits\obj\Debug\_01.FreshFruits.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\HTML Tables\01. FreshFruits\obj\Debug\_01.FreshFruits.pdb

@@ -1,0 +1,232 @@
+﻿body, h1, h2, p, ul, li, table, td, th {
+    margin: 0;
+    padding: 0;
+}
+
+body, button {
+    font-family: Segoe UI, Arial;
+}
+
+h1 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px 0 5px 0;
+}
+
+.inner-container > table {
+    border-top: 1px solid #E8E9EA;
+    padding: 9px 8px 12px 8px;
+    font-size: 12px;
+    width: 100%;
+}
+
+button {
+    border: 1px solid #8E9CAD;
+    border-radius: 3px;
+    font-size: 12px;
+    width: 34px;
+    height: 26px;
+    background: none;
+    color: #1E395B;
+    text-align: center;
+    padding: 0;
+}
+
+.action:hover, .figures:hover, .ems:hover {
+    box-shadow: inset 0 0 5px #FFDB00;
+}
+
+.action:hover, .figures:hover {
+    background: linear-gradient(#FFFBF6, #FEE2C2 49%, #FFCF6A 50%, #FFFFEB);
+}
+
+.ems:hover {
+    background: linear-gradient(#FFCE68 50%, #FFFFF2);
+}
+
+.outer-container {
+    background: #B1C38F;
+    width: 405px;
+    padding: 0 8px 8px 8px;
+    border: 1px solid #97A67A;
+}
+
+    .outer-container nav {
+        background-color: #F5F6F7;
+        border: 1px solid #97A67A;
+        font-size: 12px;
+        font-weight: 100;
+        border-bottom: none;
+    }
+
+        .outer-container nav span {
+            text-decoration: underline;
+        }
+
+        .outer-container nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 2px 9px 2px 8px;
+        }
+
+            .outer-container nav ul li {
+                float: left;
+                text-align: left;
+                margin-right: 14px;
+            }
+
+.inner-container {
+    background: linear-gradient(whitesmoke, #D9E4F1 60px);
+    border: 1px solid #97A67A;
+    border-top: none;
+    color: #1E395B;
+}
+
+    .inner-container .side {
+        list-style: none;
+        border: 1px solid #8E9CAD;
+        border-radius: 3px;
+        padding: 5px 0;
+        font-size: 11px;
+    }
+
+
+.display {
+    font-size: 24px;
+    color: black;
+    font-weight: 300;
+    background: linear-gradient(#E5EEFB, #FEFEFF);
+    text-align: right;
+    box-shadow: inset 0 0 2px white;
+}
+
+
+    .display td {
+        border: 1px solid #8E9CAD;
+        border-radius: 3px;
+        padding: 15px 5px 7px 2px;
+    }
+
+.binary-view {
+    font-size: 12px;
+    box-shadow: inset 0 0 5px white;
+}
+
+    .binary-view table {
+        border: 1px solid #8E9CAD;
+        border-radius: 3px;
+        width: 100%;
+        margin-top: 4px;
+        text-align: center;
+    }
+
+.display, .binary-view {
+    font-family: Consolas, Arial;
+}
+
+.position {
+    color: #666666;
+}
+
+.top-container {
+    position: relative;
+}
+
+.ems, .figures, .action {
+    box-shadow: inset 0px 0px 2px white;
+}
+
+.ems {
+    font-size: 11px;
+}
+
+.figures {
+    background: linear-gradient(#F3F8FC, #EDF3F8 49%, #E7EDF5 50%, #F2FBFF);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.action {
+    background: linear-gradient(#EFF5FB, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF);
+    font-size: 11px;
+}
+
+.alphabet {
+    font-size: 15px;
+}
+
+.to-left {
+    text-align: left;
+    padding-left: 8px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+
+
+#calc-icon {
+    position: absolute;
+    left: 0;
+    margin-top: 2px;
+    margin-left: 4px;
+    margin-bottom: 2px;
+}
+
+#menu-icon {
+    position: absolute;
+    right: 0;
+}
+
+#zero {
+    width: 76px;
+}
+
+#equals {
+    height: 57px;
+    font-size: 25px;
+    padding-bottom: 7px;
+}
+
+#left-arrow {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50%;
+    padding-top: 5px;
+}
+
+#part {
+    font-style: italic;
+}
+
+#plus, #minus, #star {
+    font-size: 15px;
+}
+
+#star {
+    padding-top: 4px;
+}
+
+#zero-position, #thirty-two-position {
+    text-align: right;
+    padding-right: 8px;
+}

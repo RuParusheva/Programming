@@ -1,0 +1,5 @@
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Presentation\04. MSCalculator\bin\_04.MSCalculator.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Presentation\04. MSCalculator\bin\_04.MSCalculator.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Presentation\04. MSCalculator\obj\Debug\_04.MSCalculator.dll
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Presentation\04. MSCalculator\obj\Debug\_04.MSCalculator.pdb
+C:\Users\Ru\Desktop\Telerik Academy Homework\HTML & CSS Homework\CSS Presentation\04. MSCalculator\obj\Debug\04. MSCalculator.csprojResolveAssemblyReference.cache

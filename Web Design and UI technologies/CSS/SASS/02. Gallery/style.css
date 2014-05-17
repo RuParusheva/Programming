@@ -1,0 +1,21 @@
+body, div, ul, li, p, h1, h2, h3, a {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none; }
+
+body .thumbnails:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both; }
+body .thumbnails img {
+  height: 200px;
+  float: left;
+  margin: 10px; }
+body .originals li {
+  display: none; }
+  body .originals li:target {
+    display: block; }
+

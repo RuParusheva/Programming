@@ -1,0 +1,31 @@
+@import "_mixins";
+
+body, div, ul, li, p, h1, h2, h3, a {
+	padding: 0;
+	margin: 0;
+    list-style: none;		
+	text-decoration: none;
+}
+
+
+body {
+	.thumbnails {
+		@include clearfix;
+		img {
+			height: 200px;
+			float: left;
+			margin: 10px;
+		}
+	}
+
+	.originals {
+		li {
+			display: none;
+			
+			&:target {
+				display: block;
+			}
+		}
+	}
+}
+

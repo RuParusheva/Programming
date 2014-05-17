@@ -1,0 +1,71 @@
+﻿body, header, h1, section, p, span, button {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: Arial Narrow, Arial;
+    font-size: 14px;
+}
+
+h1 {
+    padding: 10px;
+    font-family: Arial Narrow, Arial;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+section {
+    width: 45%;
+    overflow: auto;
+    padding: 10px;
+    margin: 30px 10px;
+    border: 1px solid #A6A6A6;
+    background-color: white;
+}
+
+img {
+    border: 1px solid #B1B0AC;
+    float: left;
+    margin: 10px;
+}
+
+p {
+    width: 340px;
+    margin: 10px;
+    text-align: left;
+}
+
+button {
+    background-image: url(Button.PNG);
+    height: 25px;
+    padding: 5px 10px 5px 25px;
+    text-align: center;
+    margin-right: 2px;
+    float: right;
+    color: white;
+    line-height: 100%;
+    background-color: red;
+    border: 2px outset;
+    border-top-color: #D32526;
+    border-left-color: #D32526;
+    border-bottom-color: #6C0909;
+    border-right-color: #6C0909;
+}
+
+span {
+    font-weight: bold;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+        height: 0;
+    }

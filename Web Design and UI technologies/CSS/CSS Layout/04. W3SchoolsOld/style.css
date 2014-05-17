@@ -1,0 +1,107 @@
+﻿body, p, ul, li, h1, h2, h3 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: verdana,helvetica,arial,sans-serif;
+    font-size: 11px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #961917;
+}
+h1 {
+    padding: 15px 0px 10px 4px;
+}
+
+h3 {
+    color: #900B09;
+    margin-top: 10px;
+}
+
+p {
+    margin: 15px 0;
+}
+
+.css-logo {
+    float: left;
+}
+.main-menu, .content, .adds {
+    float: left;
+}
+
+.main-menu {
+    background-color: #F1F1F1;
+    font-family: Verdana;
+}
+
+    .main-menu a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .main-menu li {
+        margin: 1px;
+    }
+
+.content {
+    width: 400px;
+    border: 1px solid #868686;
+}
+
+.content h2, .adds h2 {
+    background-color: #808080;
+    color: white;
+    font-size: 14px;
+    clear: both;
+}
+
+.content h2 {
+    margin: 10px 0;
+}
+.adds {
+    width: 150px;
+    border: 1px solid #868686;
+}
+
+.adds section {
+    border: 1px solid #868686;
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.adds input[type=search] {
+    width: 100px;
+}
+
+.adds a {
+    display: block;
+}
+.button {
+    background-color: white;
+    border: 1px solid black;
+}
+.clearfix {
+    zoom: 1;
+}
+
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+        height: 0;
+    }
+
+#home {
+    font-size: 12px;
+    padding-bottom: 10px;
+    background: url(Home.PNG) no-repeat;
+    padding-left: 30px;
+    padding-top: 13px;
+}
