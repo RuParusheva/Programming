@@ -1,0 +1,16 @@
+body, div, p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.outside-circle {
+    color: red;
+}
+.inside-rectangle {
+    color: limegreen;
+}
+.outside-rectangle {
+    color: deeppink;
+}

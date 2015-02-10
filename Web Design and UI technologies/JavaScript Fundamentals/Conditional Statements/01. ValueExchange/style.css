@@ -1,0 +1,17 @@
+body, div, p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    color: darkolivegreen;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    padding: 5px;
+}

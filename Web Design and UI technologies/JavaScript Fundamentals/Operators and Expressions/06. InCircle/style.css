@@ -1,0 +1,29 @@
+body, div, p {
+    padding: 0;
+    margin: 0;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.within-circle {
+    color: green;
+}
+.on-circle {
+    color: darkblue;
+}
+.outside-circle {
+    color: red;
+}
+
+img {
+    margin-top: 20px;
+}

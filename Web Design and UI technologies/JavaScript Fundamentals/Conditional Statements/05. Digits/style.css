@@ -1,0 +1,14 @@
+body, div, p, img {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.out-of-scope, .not-recognized {
+    color: crimson;
+}

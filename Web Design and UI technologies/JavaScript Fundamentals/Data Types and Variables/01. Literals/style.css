@@ -1,0 +1,23 @@
+body {
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container {
+    border: 5px solid black;
+    width: 210px;
+    border-radius: 15px;
+    margin: 0 auto;
+    background-color: floralwhite;
+}
+
+a {
+    text-decoration: none;
+    color: mediumvioletred;
+}
+
+ol li {
+    color: mediumvioletred;
+}

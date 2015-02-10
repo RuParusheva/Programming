@@ -1,0 +1,20 @@
+body {
+    font-family: 'Pacifico', 'cursive';
+}
+
+p {
+    margin: 5px;
+}
+
+img {
+    float: left;
+    padding: 10px;
+    background-image: url("http://www.fromoldbooks.org/Brennecke-WechselDerTage/pages/080-border-with-hearts-and-moons/080-border-with-hearts-and-moons-q97-1203x1743.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+blockquote {
+    clear: both;
+    padding: 10px;
+}

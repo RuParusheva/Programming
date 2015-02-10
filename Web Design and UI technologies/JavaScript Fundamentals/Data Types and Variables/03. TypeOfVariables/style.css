@@ -1,0 +1,24 @@
+body {
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #444;
+}
+
+.container {
+    border: 5px solid white;
+    width: 210px;
+    border-radius: 15px;
+    margin: 0 auto;
+    background-color: snow;
+}
+
+a {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+ol li {
+    color: lightseagreen;
+}
